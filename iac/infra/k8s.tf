@@ -24,7 +24,7 @@ resource "kubernetes_deployment" "FASTAPI-test" {
 
       spec {
         container {
-          image = "663466631530.dkr.ecr.us-west-2.amazonaws.com/hellowordfastapi:latest"
+          image = "yourimage"
           name  = "fastapi"
 
           resources {
