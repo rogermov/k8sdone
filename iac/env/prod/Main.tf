@@ -7,5 +7,5 @@ module "prod" {
 
 output "end" {
   value = module.prod.URL
-  
+
 }
